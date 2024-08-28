@@ -18,7 +18,6 @@ function App() {
     // 배열의 내용이 바뀌었다. != 배열이 바뀌었다.
     // 명시적으로 set을 불렀다!
     // records.push(nextNum);
-    const newRecords = records;
     // setRecords만 써서 화면을 갱신해주자!
     // setRecords(records);
     setRecords([...records, nextNum]);
