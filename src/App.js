@@ -26,7 +26,7 @@ function App() {
   const handleClearClick = () => {
     setNum(1);
     setSum(0);
-    // setRecords([]);
+    setRecords([]);
   };
 
   return (
